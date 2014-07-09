@@ -1,2 +1,2 @@
-# /usr/bin/python
-#!FileName: test.py
+#!/usr/bin/python
+# Filename: test.py
