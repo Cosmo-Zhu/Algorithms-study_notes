@@ -52,7 +52,9 @@ function mergeSort(sortedArray, start, end) {
     }
 }
 
-var sortedArray = [41, 52, 26, 38, 57, 9, 49, 3];
-console.log(sortedArray);
-mergeSort(sortedArray, 0, sortedArray.length - 1);
-console.log(sortedArray);
+exports.mergeSort = mergeSort;
+
+// var sortedArray = [41, 52, 26, 38, 57, 9, 49, 3];
+// console.log(sortedArray);
+// mergeSort(sortedArray, 0, sortedArray.length - 1);
+// console.log(sortedArray);
